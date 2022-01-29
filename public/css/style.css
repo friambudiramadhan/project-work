@@ -1,0 +1,119 @@
+/* ------------------fonts-------------- */
+.header {
+  font-family: "Raleway", sans-serif;
+}
+.footer {
+  font-family: "Overpass", sans-serif;
+}
+.euphoria {
+  font-family: "Euphoria Script", sans-serif;
+}
+
+/* -------------------colors------------------ */
+.green {
+  color: #626d71;
+}
+.bggreen {
+  background-color: #626d71;
+}
+
+/* -------------------------------------------HALAMAN USER------------------------------------------- */
+
+/* -------------------grind------------------ */
+.grind {
+  display: none;
+}
+.grind-label {
+  border: solid #b0b2b3 0.5px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 8px;
+}
+.grind:checked + .grind-label {
+  background-color: #a77159;
+  color: white;
+}
+
+/* -------------------------------------------HALAMAN ADMIN------------------------------------------- */
+
+/* -------------------home admin------------------ */
+
+/* --------purple---------- */
+.purple {
+  color: #4e0656;
+}
+.bg-purple {
+  background-color: #4e0656;
+  transition: 0.3s;
+}
+.bg-purple:hover {
+  background-color: #751b80;
+}
+/* --------brown---------- */
+.brown {
+  color: #560606;
+}
+.bg-brown {
+  background-color: #560606;
+  transition: 0.3s;
+}
+.bg-brown:hover {
+  background-color: #6e1818;
+}
+/* --------leaf---------- */
+.leaf {
+  color: #135606;
+}
+.bg-leaf {
+  background-color: #135606;
+  transition: 0.3s;
+}
+.bg-leaf:hover {
+  background-color: #2c811b;
+}
+/* --------dark-turquoise---------- */
+.dark-turquoise {
+  color: #063d56;
+}
+.bg-dark-turquoise {
+  background-color: #063d56;
+  transition: 0.3s;
+}
+.bg-dark-turquoise:hover {
+  background-color: #1a6486;
+}
+/* --------blue---------- */
+.blue {
+  color: #160656;
+}
+.bg-blue {
+  background-color: #160656;
+  transition: 0.3s;
+}
+.bg-blue:hover {
+  background-color: #321c8a;
+}
+/* --------turquoise---------- */
+.turquoise {
+  color: #065656;
+}
+.bg-turquoise {
+  background-color: #065656;
+  transition: 0.3s;
+}
+.bg-turquoise:hover {
+  background-color: #188585;
+}
+/* --------yellow---------- */
+.yellow {
+  color: #ccae07;
+}
+.bg-yellow {
+  background-color: #ccae07;
+  transition: 0.3s;
+}
+.bg-yellow:hover {
+  background-color: #c29415;
+}
